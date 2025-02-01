@@ -859,9 +859,6 @@ fun getDeviceModel(): String {
  */
 fun getSupportedABIs(): Array<String> = SUPPORTED_ABIS
 
-
-
-
 inline fun <reified T> Any?.cast() = this as? T
 
 inline fun <reified T> Any.force() = this as T
